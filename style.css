@@ -1,0 +1,56 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color:#111827;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid deepskyblue;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.inputs {
+    display: flex;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    margin: 0 8px;
+}
+
+label {
+    font-size: 18px;
+}
+
+.input {
+    border: 2px solid deepskyblue;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 7px;
+    padding: 8px;
+    margin-top: 4px;
+    outline: none;
+}
+
+.btn {
+    height: 3rem;
+    width: 8rem;
+    border: 2px solid deepskyblue;
+    background: deepskyblue;
+    color: white;
+    font-size: 16px;
+    border-radius: 7px;
+    padding: 8px;
+    margin-top: 30px;
+}
